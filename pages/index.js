@@ -26,7 +26,7 @@ const Home = () => {
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <a
             href="/about"
-            className="mt-6 w-96 rounded-xl border p-6 text-left"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:bg-gray-800"
           >
             <h3 className="text-2xl font-bold text-white">About &rarr;</h3>
             <p className="mt-4 text-xl text-white">
@@ -36,7 +36,7 @@ const Home = () => {
 
           <a
             href="/example-smart-contracts"
-            className="mt-6 w-96 rounded-xl border p-6 text-left text-white"
+            className="mt-6 w-96 rounded-xl border p-6 text-left text-white hover:bg-gray-800" 
           >
             <h3 className="text-2xl font-bold text-white">Example Smart Contracts &rarr;</h3>
             <p className="mt-4 text-xl">
@@ -46,7 +46,7 @@ const Home = () => {
 
           <a
             href="/generate-contract"
-            className="mt-6 w-96 rounded-xl border p-6 text-left"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:bg-gray-800"
           >
             <h3 className="text-2xl font-bold text-white">Generate Contract &rarr;</h3>
             <p className="mt-4 text-xl text-white">
@@ -56,7 +56,7 @@ const Home = () => {
 
           <a
             href="/questions"
-            className="mt-6 w-96 rounded-xl border p-6 text-left text-white"
+            className="mt-6 w-96 rounded-xl border p-6 text-left text-white hover:bg-gray-800"
           >
             <h3 className="text-2xl font-bold text-white">Questions? &rarr;</h3>
             <p className="mt-4 text-xl">
