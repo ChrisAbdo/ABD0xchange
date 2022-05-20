@@ -16,7 +16,10 @@ const Home = () => {
       <Navbar />
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-      <img class="rocket launch" src="https://cdn4.iconfinder.com/data/icons/whsr-january-flaticon-set/512/rocket.png"></img>
+      <img 
+       // classname hover move up to top of page.
+       className="hover:animate-bounce"
+       src="https://cdn4.iconfinder.com/data/icons/whsr-january-flaticon-set/512/rocket.png"></img>
         <h1 className="text-6xl font-bold text-white">
           Welcome to SolidityRocket🚀
         </h1>

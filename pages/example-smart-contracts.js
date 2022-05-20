@@ -342,12 +342,8 @@ function exampleContracts() {
 			</div>
 		</div>
 	</div>
-
-	<p class="mt-5 text-white">This accordion component is part of a larger, open-source library of Tailwind CSS components. Learn
-		more
-		by going to the official <a class="text-blue-600 hover:underline"
-			href="https://flowbite.com/docs/getting-started/introduction/" target="_blank">Flowbite Documentation</a>.
-	</p>
+  <br />
+	<p className="text-white">These are just some examples of Solidity Smart Contracts. If you want to see more do not hesitate to message!</p>
 	<script src="https://unpkg.com/flowbite@1.3.3/dist/flowbite.js"></script>
 </div>
           
